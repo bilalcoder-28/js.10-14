@@ -9,8 +9,8 @@
 //     alert("welcoem to the city of light")
 // }
 
-//Q NO 2
-//A no 2 
+// Q NO 2
+// A no 2 
 
 // let b = "male"
 // let c = "female"
@@ -40,8 +40,8 @@
 
 
 
-//Q no 4 
-//A no 4 
+// Q no 4 
+// A no 4 
 
 // let fuel = 0.25
 // let remainingfuel = prompt("enter remaining fuel of car")
@@ -49,8 +49,8 @@
 //     alert("plz refill fuel in your car")
 // }
 
-//Q no 5 
-//A no 5 
+// Q no 5 
+// A no 5 
 
 // let a = 10
 // if(++a === 11){
@@ -100,8 +100,8 @@
 //     alert("the car is smaller than cat")
 // }
 
-//Q no 6 
-//A no  6
+// Q no 6 
+// A no  6
 
 // let totalmarks = 100;
 // let sub1 = +prompt("Enter Your Subject First Subject Number")
@@ -167,8 +167,8 @@
 // }
 
 
-//Q no 8
-//A no 8
+// Q no 8
+// A no 8
 
 // let a = prompt("Enter Your Number")
 // b = a % 3 
@@ -179,8 +179,8 @@
 // }
    
 
-//Q no 9 
-//A no 9
+// Q no 9 
+// A no 9
 
 // let odd = prompt("Enter Your Number")
 // if(odd % 3){
@@ -190,8 +190,8 @@
 // }
 
 
-//Q no 10
-//A no 10
+// Q no 10
+// A no 10
 
 
 // let temp = prompt("Enter Temprature ")
@@ -209,12 +209,161 @@
 // }
 
 
-//Q no 11
-          //remainig//
+// Q no 11
+          
+// let number1 = 18
+// let number2 = 20 
+// let operator = prompt("Enter Your Operator")
+
+// if(operator == "+"){
+//     console.log(number1 + number2)
+//     alert(number1 + number2)
+// }
+
+
+// else if (operator == "-"){
+//      console.log(number1 - number2)
+//     alert(number1 - number2)
+
+// }
+// else if (operator == "/"){
+//      console.log(number1 / number2)
+//     alert(number1 / number2)
+
+// }
+// else if (operator == "*"){
+//      console.log(number1 * number2)
+//     alert(number1 * number2)
+
+// }
+// else if (operator == "%"){
+//      console.log(number1 % number2)
+//     alert(number1 % number2)
+
+// }else{
+//     alert("invalide value")
+//     console.log("invalide value")
+// }
+
+// ////////////////----------------------chp-9-11 END ----------------------------////////////////////////////
+
+// /////////////////------------------chp-12-13 Start ----------------------------////////////////////////////
+
+
+// Q no 1 
+// A no 1 
+
+// let letter = prompt("Enter a alphabet")
+// if (letter.charCodeAt()>= 65 && letter.charCodeAt()<= 90){
+//     console.log("It is a upper case alphabets ")
+//     alert("Its is a upper case alphabet")
+// }
+// else if (letter.codePointAt() >= 97 && letter.charCodeAt() <= 122){
+//     console.log("Its is a lower case alphabet")
+//     alert("Its is a lower case alphabet")
+// }
+
+
+// Q no 2 
+// A no 2 
+
+// let number1 = prompt("Enter a number ")
+// let number2 = prompt("Enter a number ")
+
+// if(number1>number2){
+//     alert("number 1 is larger")
+// }
+// else if(number1<number2){
+//      alert("number 2 is larger")
+// }
+
+// else if (number1 == number2){
+//     alert("Both are equall")
+// }
 
 
 
 
+// Q n0 3 
+// A no 3 
+
+// let a = prompt("Enter a number")
+// if(a > 0 ){
+//     alert("number is positive ")
+// }
+// else if (a < 0 ){
+//     alert("number is negative ")
+// }
+// else if (0 == 0){
+//     alert("number is zero")
+// }
+
+
+
+// //Q no 4 
+// //A no 4 
+
+// let vowels = prompt("Enter a vowels ")
+// if(vowels == "a" || vowels == "e" || vowels == "i" || vowels == "o"   ||  vowels == "u"  ){
+//     alert("True")
+
+// }else{
+//     alert("False")
+// }
+
+
+
+//Q no 5 
+//A no 5 
+
+// let correctpassword = "bilal123"
+// let pass = prompt("Enter your password")
+// if(pass == correctpassword ){
+//     alert("correct password")
+// }else{alert("Worng password please enter yout correst password")}
+
+
+
+// Q no 6 
+// A no 6 
+
+// let greeting;
+// let hour = 13
+// if (hour < 18){
+//     greeting="Good Day";
+//     alert(greeting)
+// }
+// else {
+//     greeting="Good Evening";
+//     alert(greeting)
+// }
+
+
+//Q no 7 
+//A no 7 
+
+
+// let time = prompt("Enter a current time")
+// if (time >=0 && time < 1200){
+//   console.log("Good Morning!")
+//   alert("Good Morning!")
+// }
+// else if (time >= 1200 && time < 1700){
+//   console.log("Good afternoon!")
+//    alert("Good afternoon!")
+// }
+// else if (time >= 1700 && time < 2100){
+//   console.log("Good Evening!")
+//    alert("Good Evening!")
+// }
+// else if  (time >= 2100 && time <= 2400){
+//   console.log("Good night!")
+//   alert("Good night!")
+// }
+
+
+
+//////////////////////////////////////////////END//////////////////////////////////////////////////////////////////////////
 
 
 
